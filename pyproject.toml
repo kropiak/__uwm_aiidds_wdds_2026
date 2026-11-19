@@ -1,0 +1,21 @@
+[project]
+name = "uwm-intro-ds"
+version = "0.2.0"
+description = "Materiały dydaktyczne do przedmiotu Wprowadzenie do data science (studia podyplomowe)"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "ipykernel>=6.29.0",
+    "jupyter>=1.1.0",
+    "matplotlib>=3.10.0",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.0",
+    "requests>=2.32.0",
+    "seaborn>=0.13.2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.0",
+    "ruff>=0.9.0",
+]
