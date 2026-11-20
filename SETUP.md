@@ -82,8 +82,9 @@ uv python install 3.14
 W terminalu przejdź do katalogu, w którym przechowujesz projekty, sklonuj repozytorium i uruchom `uv sync`:
 
 ```bash
-git clone <ADRES_REPOZYTORIUM_KURSU>
-cd __uwm_aiids_2026
+#  folderze, w którym chcemy zapisać kopię (klon) repozytorium
+git clone https://github.com/kropiak/__uwm_aiidds_wdds_2026
+cd __uwm_aiidds_wdds_2026
 uv sync
 ```
 
